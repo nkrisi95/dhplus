@@ -96,7 +96,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 #header {
-  background: url("/home/kristof/Desktop/dhplus/n.jpg") center no-repeat;
+  background: url("../img/n.jpg") center no-repeat;
   height: 340px;
 }
 
