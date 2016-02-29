@@ -95,9 +95,45 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#header {
+  background: url("/home/kristof/Desktop/dhplus/n.jpg") center no-repeat;
+  height: 340px;
+}
 
 .container {
   margin: 0 5%;
+}
+
+#navbar > ul > li > ul > li > a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+#navbar > ul > li > ul > li:hover {
+  background: #7AA4C4;
+}
+
+#navbar > ul > li > ul > li {
+  list-style: none;
+  padding: 10px  0;
+  margin: 5px auto;
+  width: 100%;
+  text-transform: none;
+  margin-bottom: 0px;
+}
+
+#navbar > ul > li > ul {
+  padding: 0;
+  padding-top: 5px;
+  background: #223444;
+  opacity: 0.95;
+  display: none;
+}
+
+#navbar > ul > li:hover > ul {
+  display: block;
+  position: absolute;
 }
 
 #contant {
@@ -111,13 +147,14 @@ textarea {
   background: linear-gradient(to bottom,  #395570 0%,#223444 64%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#395570', endColorstr='#223444',GradientType=0 );
   min-height: 3em;
-  max-height: 8em;
+  max-height: 10em;
 }
 
 #navbar > ul > li {
-  display: inline-block;
+  float: left;
   margin: 10px 0;
   padding-left: 20px;
+  list-style: none;
 }
 
 #navbar > ul {

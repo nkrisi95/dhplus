@@ -1,0 +1,36 @@
+.hovermsg_container {
+	position: absolute;
+	overflow: hidden;
+	display: block;
+	padding: 10px 15px;
+	overflow: hidden;
+	background-color: #161616;
+	color: #f9f9f9;
+	font: 14px/1.2em Verdana, arial, sans-serif;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+
+.hovermsg_close {
+	float: right;
+}
+
+.hovermsg_warning {
+	background: #161616 url('../img/warning.png') no-repeat 10px 10px;
+	padding-left: 50px;
+}
+
+.hovermsg_error {
+	background: #161616 url('../img/error.png') no-repeat 10px 10px;
+	padding-left: 50px;
+}
+
+.hovermsg_notice {
+	background: #161616 url('../img/notice.png') no-repeat 10px 10px;
+	padding-left: 50px;
+}
+
+.hovermsg_confirm {
+	background: #161616 url('../img/confirm.png') no-repeat 10px 10px;
+	padding-left: 50px;
+}
