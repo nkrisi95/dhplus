@@ -160,16 +160,25 @@ textarea {
 }
 
 #game {
-  width: 680px;
-  height: 510px;
+  width: 653px;
+  height: 500px;
+  display: inline-block;
+  float: left;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+#video {
+  width: 653px;
+  height: 475px;
   display: inline-block;
 }
 
 #irc {
   width: 100%;
   min-width: 680px;
-  float: right;
   display: inline-block;
+  height: 532px;
 }
 
 .post > p {
