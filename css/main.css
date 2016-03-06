@@ -123,19 +123,16 @@ textarea {
   margin: 10px 0;
   padding-left: 20px;
   list-style: none;
+  text-decoration: line-through;
+  color: gray;
+  font-weight: bold;
+  cursor: not-allowed;
 }
 
 #navbar > ul {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-}
-
-#navbar > ul > li > a {
-  text-decoration: line-through;
-  color: gray;
-  font-weight: bold;
-  cursor: not-allowed;
 }
 
 .post {
