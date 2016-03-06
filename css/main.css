@@ -145,6 +145,10 @@ textarea {
   font-size: 16px;
 }
 
+#contant > div:nth-child(2) {
+  margin-top: 0;
+}
+
 #game {
   width: 680px;
   height: 510px;
@@ -152,7 +156,7 @@ textarea {
 }
 
 #irc {
-  width: 60%;
+  width: 100%;
   min-width: 680px;
   float: right;
   display: inline-block;
